@@ -2,7 +2,7 @@
   "name": "multiplication-table",
   "version": "1.0.0",
   "description": "Simple multiplcation table designed to demonstrate event propagation",
-  "main": "index.js",
+  "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
