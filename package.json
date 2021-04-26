@@ -4,7 +4,9 @@
   "description": "Simple multiplcation table designed to demonstrate event propagation",
   "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "webpack --progress --mode=development",
+    "build": "webpack --mode=production",
+    "watch": "webpac --progress --watch --mode=development"
   },
   "repository": {
     "type": "git",
