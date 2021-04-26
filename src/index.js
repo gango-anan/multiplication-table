@@ -12,15 +12,8 @@ table.addEventListener( "mouseout", TableHandler );
 
 // event handler
 function TableHandler(e) {
-
-	let t = e.target;
+	const t = e.target;
 	if (t.nodeName != "TD") return;
-	
-	// let cName = ( e.type == "mouseover" ? "active" : "");
-	// t.parentNode.className = cName;
-	// tcols[ t.cellIndex ].className = cName;
-
 	t.parentNode.className = tcols[ t.cellIndex ].className =
 	( e.type == "mouseover" ? "active" : "");
-	
 }
