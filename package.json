@@ -1,0 +1,19 @@
+{
+  "name": "multiplication-table",
+  "version": "1.0.0",
+  "description": "Simple multiplcation table designed to demonstrate event propagation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gango-anan/multiplication-table.git"
+  },
+  "author": "Galiwango",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gango-anan/multiplication-table/issues"
+  },
+  "homepage": "https://github.com/gango-anan/multiplication-table#readme"
+}
